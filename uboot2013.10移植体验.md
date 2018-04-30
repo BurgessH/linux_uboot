@@ -1,11 +1,11 @@
-#朱老师嵌入式课程系列学习-------uboot-version-2013.10移植体验
-一、具体移植前注意环节：
-  1.1.uboot源码->uboot.bin
-    1.1.1.uboot目录结构基本了解； 
-      1.1.1.1.基于文件目录结构和作用的了解，windows中分析时删减相关无影响文件；找到和我们开发板最适配的文件；在sourceinsight中便于查找；
-      注意： 1.3.4version:
-              lib_arm(cpu架构相关的目录文件)；
-              lib_generic(通用库目录文件)；
+# 朱老师嵌入式课程系列学习-------uboot-version-2013.10移植体验
+## 一、具体移植前注意环节：
+  - 1.1.uboot源码->uboot.bin
+    - 1.1.1.uboot目录结构基本了解； 
+    - 1.1.1.1.基于文件目录结构和作用的了解，windows中分析时删减相关无影响文件；找到和我们开发板最适配的文件；在sourceinsight中便于查找；
+    - 注意： 1.3.4version:
+      - lib_arm(cpu架构相关的目录文件)；
+        - lib_generic(通用库目录文件)；
             2013.10version:
               arch(cpu架构目录文件)；
               board(支持开发板目录文件)；
