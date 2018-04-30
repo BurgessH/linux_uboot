@@ -11,12 +11,11 @@
 
 ### X210官方配置编译实践
 #### Uboot源码获取途径：(uboot官方、SOC官方（SMDKV210三星官方的开发板移植好的uboot）、具体开发板供应商九鼎科技)
-1）配置uboot(uboot、kernel等复杂系统都是先配置然后编译)编译前应先检查是否安装交叉编译工具链；
-2）当前uboot中的主Makefile会设置交叉编译工具工具链的路径和名字147CROSS_COMPILE=/usr/local/arm/arm-2009q3/bin/arm-none-linux-gnueabi-
-3）make -j2 表示多线程编译，在当前目录下生成u-boot.bin.
-4)ls -l uboot.bin
-5)du -h uboot.bin
-
+1）配置uboot(uboot、kernel等复杂系统都是先配置然后编译)编译前应先检查是否安装交叉编译工具链；  
+2）当前uboot中的主Makefile会设置交叉编译工具工具链的路径和名字147CROSS_COMPILE=/usr/local/arm/arm-2009q3/bin/arm-none-linux-gnueabi-  
+3）make -j2 表示多线程编译，在当前目录下生成u-boot.bin.  
+4)ls -l uboot.bin  
+5)du -h uboot.bin  
 
   - 1.1.uboot源码->uboot.bin
     - 1.1.1.uboot目录结构基本了解； 
