@@ -19,7 +19,7 @@
 
 ### 1.1.uboot源码->uboot.bin
 - 1.1.1.uboot目录结构基本了解;   
- Uboot文件说明：  
+Uboot文件说明：  
 .gitignore.：git版本管理工具  
 Arm_config.mk:.mk是一个Makefile文件，将来在某个Makefile中回去调用它；  
 Changelog：文件修改文件记录；  
@@ -32,7 +32,7 @@ Makefile: 主uboot管理编译的
 Mkconfig：uboot配置脚本  
 Mkmovi: inand/SD相关  
 README:  
-Rules.mk:uboot的makefile使用的规则；  
+Rules.mk: uboot的makefile使用的规则；  
 
             
 小结: 第一步：完成上述前期基本工作，在linux环境编译得到我们需要的可烧写文件uboot.bin;
