@@ -33,7 +33,7 @@ Mkconfig：uboot配置脚本
 Mkmovi: inand/SD相关  
 README:  
 Rules.mk: uboot的makefile使用的规则；  
-  - 1.1.2.uboot文件夹目录
+  - 1.1.2.uboot文件夹目录  
 api: 硬件无关的功能函数的API，移植时基本不用管。  
 api_examples:  
 board:board文件夹下每一个文件都代表一个开发板，这个文件夹下面放的文件就是用来描述一个开发板的。  
