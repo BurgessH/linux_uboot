@@ -19,7 +19,7 @@
 
 ### 1.1.uboot源码->uboot.bin
 - 1.1.1.uboot目录结构基本了解;   
-Uboot文件说明：  
+  - Uboot文件说明：  
 .gitignore.：git版本管理工具  
 Arm_config.mk:.mk是一个Makefile文件，将来在某个Makefile中回去调用它；  
 Changelog：文件修改文件记录；  
