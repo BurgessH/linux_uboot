@@ -33,9 +33,12 @@ Mkconfig：uboot配置脚本
 Mkmovi: inand/SD相关  
 README:  
 Rules.mk: uboot的makefile使用的规则；  
+  -1.1.2.uboot文件夹目录
+api: 硬件无关的功能函数的API，移植时基本不用管。  
+api_examples:  
+board:board文件夹下每一个文件都代表一个开发板，这个文件夹下面放的文件就是用来描述一个开发板的。  
+开发板越来越多，board目录下文件夹越来越多不方便管控，于是乎uboot新增了一种机制，可以在board目录下不直接放开发板目录，而是在board下放厂家目录（具体厂家的名字为目录）  
 
-            
-小结: 第一步：完成上述前期基本工作，在linux环境编译得到我们需要的可烧写文件uboot.bin;
-
+  小结: 第一步：完成上述前期基本工作，在linux环境编译得到我们需要的可烧写文件uboot.bin;
 二、移植过程分析：
   2.1.
