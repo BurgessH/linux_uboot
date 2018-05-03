@@ -33,11 +33,32 @@ Mkconfig：uboot配置脚本
 Mkmovi: inand/SD相关  
 README:  
 Rules.mk: uboot的makefile使用的规则；  
+
   - 1.1.2.uboot文件夹目录  
 api: 硬件无关的功能函数的API，移植时基本不用管。  
 api_examples:  
-board:board文件夹下每一个文件都代表一个开发板，这个文件夹下面放的文件就是用来描述一个开发板的。  
-开发板越来越多，board目录下文件夹越来越多不方便管控，于是乎uboot新增了一种机制，可以在board目录下不直接放开发板目录，而是在board下放厂家目录（具体厂家的名字为目录）  
-  小结: 第一步：完成上述前期基本工作，在linux环境编译得到我们需要的可烧写文件uboot.bin;  
+board: board文件夹下每一个文件都代表一个开发板，这个文件夹下面放的文件就是用来描述一个开发板的。  
+开发板越来越多，board目录下文件夹越来越多不方便管控，于是乎uboot新增了一种机制，可以在board目录下不直接放开发板目录，而是在board下放厂家目录（具体厂家的名字为目录）   
+common: 普通的与具体硬件无关的普遍适用的一些代码。    
+cpu: 这个目录是SOC相关的，里面存放的代码都是SOC相关初始化和控制代码，同一块SOC  
+disk: 磁盘相关的  
+doc: 文档目录存放很多uboot相关目录；  
+drivers: linux源码中的驱动代码，flash、network.  
+examples: 示例代码  
+fs: filesystem文件系统，从linux源代码中移植过来的管理flash等资源。    
+include: 所有的头文件都集中存放在include目录下。  
+lib_开头的文件：具体cpu架构相关的库文件；lib_arm  
+libfdt: 设备树有关的。kernel-3.4  
+nand_spl  
+net: 网络相关的代码tftp;  
+onenand:   
+post:  
+sd_fusing: 烧录uboot镜像到SD卡。
+tools: 工具类的代码；
+
+
+
+小结: 第一步：完成上述前期基本工作，在linux环境编译得到我们需要的可烧写文件uboot.bin; 
+
 二、移植过程分析：
   2.1.
