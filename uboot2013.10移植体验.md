@@ -23,7 +23,7 @@
 .gitignore.：git版本管理工具  
 Arm_config.mk:.mk是一个Makefile文件，将来在某个Makefile中回去调用它；  
 Changelog：文件修改文件记录；  
-Config.mk  
+Config.mk:    
 COPYING:GPL版权  
 CREDITS：鸣谢  
 Image-split(自添加的脚本)：  
@@ -49,7 +49,7 @@ fs: filesystem文件系统，从linux源代码中移植过来的管理flash等�
 include: 所有的头文件都集中存放在include目录下。  
 lib_开头的文件：具体cpu架构相关的库文件；lib_arm  
 libfdt: 设备树有关的。kernel-3.4  
-nand_spl  
+nand_spl:  
 net: 网络相关的代码tftp;  
 onenand:   
 post:  
