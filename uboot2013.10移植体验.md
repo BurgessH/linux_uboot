@@ -55,9 +55,6 @@ onenand:
 post:  
 sd_fusing: 烧录uboot镜像到SD卡。
 tools: 工具类的代码；
-
-
-
 小结: 第一步：完成上述前期基本工作，在linux环境编译得到我们需要的可烧写文件uboot.bin; 
 
 二、移植过程分析：
