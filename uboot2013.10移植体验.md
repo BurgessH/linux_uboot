@@ -44,7 +44,7 @@ cpu: 这个目录是SOC相关的，里面存放的代码都是SOC相关初始化
 disk: 磁盘相关的  
 doc: 文档目录存放很多uboot相关目录；  
 drivers: linux源码中的驱动代码，flash、network.  
-examples: 示例代码  
+examples: 示例代码  .
 fs: filesystem文件系统，从linux源代码中移植过来的管理flash等资源。    
 include: 所有的头文件都集中存放在include目录下。  
 lib_开头的文件：具体cpu架构相关的库文件；lib_arm  
@@ -58,6 +58,6 @@ tools: 工具类的代码；
 小结: 第一步：完成上述前期基本工作，在linux环境编译得到我们需要的可烧写文件uboot.bin; 
 
 二、移植过程分析：
-  2.1.ARCH:编译当前cpu架构arm,导出ARCH  
-  2.2.编译工具链前缀的定义。  
+  2.1.ARCH:编译当前cpu架构arm,导出ARCH    
+  2.2.编译工具链前缀的定义。    
    
