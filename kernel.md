@@ -2,21 +2,30 @@
 ## linux内核源码目录结构1-2  
 ### 文件目录：  
   - 源码获取的渠道2.6.35.7版本的内核（三星移植过和九鼎移植过的内核）一共三个版本：kernel.org版本；三星移植过的版本（移植实验使用）；九鼎移植过的版本（我们使用的是：B/linux/QT4.8/bsp/qt_x210v3_130807）;  
-  - .gitignore:版本控制  
-  - .mailmap：维护  
-  - COPYING: 版权  
-  - CREDITS: 鸣谢  
-  - initrd.img.cpio:设备树传参  
-  - Kbuild: kernel编译（管理内核配置）  
-  - MAINTAINERS:   
-  - makefile: 管理kernel编译的  
-  - mk(九鼎移植时自己添加的整体管理kernel配置和编译）  
-  - README：说明  
-  - Kconfig: 
+  - **.gitignore**:版本控制  
+  - **.mailmap**：维护  
+  - **COPYING**: 版权  
+  - **CREDITS**: 鸣谢  
+  - **initrd.img.cpio**:设备树传参  
+  - **Kbuild**: kernel编译（管理内核配置）  
+  - **MAINTAINERS**:   
+  - **makefile**: 管理kernel编译的  
+  - **mk**(九鼎移植时自己添加的整体管理kernel配置和编译）  
+  - **README**：说明  
+  - **Kconfig**: 
   
 ### 文件夹目录：  
-  - arch:(好多个不同架构的cpu的子目录，譬如arch/arm)
-  - block:
+  - **arch**:(好多个不同架构的cpu的子目录，譬如arch/arm)  
+  - **block**:在linux中block表示块设备管理的代码；  
+  - **crypto**: 常用加密算法    
+  - **Documentation**: 文档    
+  - **driver**: 驱动目录（分门别类的列出了linux所支持的所有驱动）  
+  - **firmware**: 固件  
+  - fs: 文件系统支持所有的文件系统  
+  - include: 头文件目录各种cpu架构共用的头文件都在这里；  
+  -
+   
+  
   
 ## linux内核配置和编译体验   
 ###     
