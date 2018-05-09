@@ -42,4 +42,5 @@
   - 2.make x210ii_qt_defconfig(configuration written to .config-->生产.config文件);        
   - 3.make menuconfig  
   - 4.make  
+  - 5.最后配置编译完成后得到镜像名：Ziamge在/arch/arm/boot/目录下；  
 ## 内核的配置原理1-2  
