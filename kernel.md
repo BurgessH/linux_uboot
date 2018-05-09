@@ -20,16 +20,18 @@
   - **crypto**: 常用加密算法      
   - **Documentation**: 文档    
   - **driver**: 驱动目录（分门别类的列出了linux所支持的所有驱动）  
-  - **firmware**: 固件  
-  - fs: 文件系统支持所有的文件系统  
-  - include: 头文件目录各种cpu架构共用的头文件都在这里；  
-  - init:内核本身的初始化；  
-  - ipc: 进程间通信  
-  - kernel:linux内核本身需要的文件；  
-  - 
-
-  
-  
+  - **firmware**: 固件    
+  - fs: 文件系统支持所有的文件系统    
+  - include: 头文件目录各种cpu架构共用的头文件都在这里；    
+  - init:内核本身的初始化；     
+  - ipc: 进程间通信    
+  - kernel:linux内核本身需要的文件；      
+  - lib：共用的有用库函数；    
+  - mm: 内存管理相关的；    
+  - net : 网络相关的代码tip/ip;    
+  - script: 脚本辅助linux内核配置编译生产的；  
+  - 
+   
 ## linux内核配置和编译体验   
 ###     
 ## 内核的配置原理1-2      
