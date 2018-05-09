@@ -30,11 +30,11 @@
   - mm: 内存管理相关的；    
   - net : 网络相关的代码tip/ip;    
   - script: 脚本辅助linux内核配置编译生产的；  
-  - security:安全  
-  - sound: 音频  
-  - tools:工具  
-  - usr:  initramfs相关的
-  - virt:  虚拟机
+  - security:安全  
+  - sound: 音频  
+  - tools:工具  
+  - usr:  initramfs相关的
+  - virt:  虚拟机
    
 ## linux内核配置和编译体验   
 ###     
