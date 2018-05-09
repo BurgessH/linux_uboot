@@ -37,6 +37,8 @@
   - virt:  虚拟机
    
 ## linux内核配置和编译体验   
-###     
-## 内核的配置原理1-2      
-  
+### 配置和编译操作过程
+  - 1.**Makefile**: 确认交叉编译工具链是否安装、确认arch=arm(确认找到arch/arm目录);  
+  - 2.make x210ii_qt_defconfig(configuration written to .config-->生产.config文件);      
+  - 3.make menuconfig
+## 内核的配置原理1-2  
