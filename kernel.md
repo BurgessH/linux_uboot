@@ -16,16 +16,19 @@
   
 ### 文件夹目录：  
   - **arch**:(好多个不同架构的cpu的子目录，譬如arch/arm)  
-  - **block**:在linux中block表示块设备管理的代码；  
-  - **crypto**: 常用加密算法    
-  - **Documentation**: 文档    
-  - **driver**: 驱动目录（分门别类的列出了linux所支持的所有驱动）  
-  - **firmware**: 固件  
-  - fs: 文件系统支持所有的文件系统  
-  - include: 头文件目录各种cpu架构共用的头文件都在这里；  
-  - init:内核本身的初始化；  
-   
-  
+  - **block**:在linux中block表示块设备管理的代码；  
+  - **crypto**: 常用加密算法      
+  - **Documentation**: 文档    
+  - **driver**: 驱动目录（分门别类的列出了linux所支持的所有驱动）  
+  - **firmware**: 固件  
+  - fs: 文件系统支持所有的文件系统  
+  - include: 头文件目录各种cpu架构共用的头文件都在这里；  
+  - init:内核本身的初始化；  
+  - ipc: 进程间通信  
+  - kernel:linux内核本身需要的文件；  
+  - 
+
+  
   
 ## linux内核配置和编译体验   
 ###     
