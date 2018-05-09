@@ -27,10 +27,14 @@
   - ipc: 进程间通信    
   - kernel:linux内核本身需要的文件；      
   - lib：共用的有用库函数；    
-  - mm: 内存管理相关的；    
-  - net : 网络相关的代码tip/ip;    
-  - script: 脚本辅助linux内核配置编译生产的；  
-  - 
+  - mm: 内存管理相关的；    
+  - net : 网络相关的代码tip/ip;    
+  - script: 脚本辅助linux内核配置编译生产的；  
+  - security:
+  - sound: 
+  - tools:
+  - usr:
+  - virt:
    
 ## linux内核配置和编译体验   
 ###     
