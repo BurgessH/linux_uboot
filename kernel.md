@@ -44,3 +44,7 @@
   - 4.make  
   - 5.最后配置编译完成后得到镜像名：Ziamge在/arch/arm/boot/目录下；  
 ## 内核的配置原理1-2  
+  - .config：linux配置时就会去读取.config中的配置项，整个linux中选择编译（2234lines）；  
+  - make x210ii_qt_defconfig: （参考别人已经配置好的内存管理、调度系统）大部分的配置项已经配置ok; arch/arm/config/x210ii_qt_defconfig => .config   
+  - make menuconfig: 然后针对我们自己的细节配置；    
+  - 
