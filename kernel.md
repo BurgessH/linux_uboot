@@ -55,14 +55,14 @@
     - menuconfig: 是由一套自由软件支持的，menuconfig中所支持的内容来自Kconfig文件中的配置项；menuconfig读取.config中配置项来初始化menuconfig中各个菜单项选择值；  
 
 ## Kconfig文件的格式
-  - 按照一定的格式来书写，menuconfig程序可以识别这种格式，然后从中提取出有效信息来组成menuconfig中的菜单项。  
-  - 将来在驱动移植工作时，需要自己添加Kconfig中的一个配置项来将某个设备驱动添加到内核配置项目中，这时候就需要对Kcnfig的配置格式有所了解，否则就不会添加。  
-  - menuconfig表示菜单（本身属于一个菜单中的项目，但是它又有子菜单项目）、config表示菜单中的一个配置项（本身并没有子菜单项目）   
-  - menuconfig或者config后面空格隔开的大写字母表示的类似于NETDEVICE的就是这个配置项名字，这个字符串前面添加CONFIG_后就构成.config配置项名字。    
-  - 一个menuconfg后面跟着的所有config项就是这个menuconfig的子菜单，这就是Kconfig中的目录关系。      
-  - 内核源码目录树中每一个Kconfig都会source引入其所有子目录的Kconfig文件。    
-  - tristate:意思三态，三种可选择方式；  
-  - bool:两种可选择编译方式；    
-  - depends: 依赖选项  
-  - help:  
-  - Kconfig和.config、Makefile的关系：  
+  - 按照一定的格式来书写，menuconfig程序可以识别这种格式，然后从中提取出有效信息来组成menuconfig中的菜单项。  
+  - 将来在驱动移植工作时，需要自己添加Kconfig中的一个配置项来将某个设备驱动添加到内核配置项目中，这时候就需要对Kcnfig的配置格式有所了解，否则就不会添加。  
+  - menuconfig表示菜单（本身属于一个菜单中的项目，但是它又有子菜单项目）、config表示菜单中的一个配置项（本身并没有子菜单项目）   
+  - menuconfig或者config后面空格隔开的大写字母表示的类似于NETDEVICE的就是这个配置项名字，这个字符串前面添加CONFIG_后就构成.config配置项名字。    
+  - 一个menuconfg后面跟着的所有config项就是这个menuconfig的子菜单，这就是Kconfig中的目录关系。      
+  - 内核源码目录树中每一个Kconfig都会source引入其所有子目录的Kconfig文件。    
+  - tristate:意思三态，三种可选择方式；  
+  - bool:两种可选择编译方式；    
+  - depends: 依赖选项  
+  - help:  
+  - Kconfig和.config、Makefile的关系：  
