@@ -52,4 +52,4 @@
     - 去除（空白）： 去除就是将这个模块不编译链接到zImage中去；  
     - 模块化（M）： 将这个模块任然编译，但是不会将其链接到zImage中，会将这个模块单独链接成一个内核模块.ko文件，将来linux系统内核启动起来后可以动态加载或者卸载这个模块。  
     - []:不可模块化；<>: 可以模块化； ？：帮助信息； /:全局搜索信息；
-    - menuconfig: 是由一套自由软件支持的，menuconfig中所支持的内容来自Kconfig文件中的配置项；menuconfig读取.config中配置项来初始化menuconfig中各个菜单项选择值；  
+    - menuconfig: 是由一套自由软件支持的，menuconfig中所支持的内容来自Kconfig文件中的配置项；menuconfig读取.config中配置项来初始化menuconfig中各个菜单项选择值；  
