@@ -59,8 +59,8 @@ tools: 工具类的代码；
 
 二、移植过程分析：
   2.1.ARCH:编译当前cpu架构arm,导出ARCH    
-  2.2
-  
-  
+  2.2.uboot，Makefile分析5：config.mk142-149；
+  2.3.TEXT_BASE:
+  
   
    
