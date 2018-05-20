@@ -70,3 +70,5 @@ tools: 工具类的代码；
   - 第三个：在include下创建一个regs.h指向s5pc110.h;
   - 第四个：删除创建的第二个符号链接，重新创建符号include/asm-arm/arch指向arch-sp5c11x;
   - 第五个：创建include/asm-arm/proc指向include/asm-arm/proc-armv;
+  2.5 配置过程详解2
+  - 创建inlcude/config.mk文件
