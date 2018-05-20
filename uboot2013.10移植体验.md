@@ -63,4 +63,10 @@ tools: 工具类的代码；
   - 链接脚本：如果定义了CONFIG_NAND_U_BOOT宏，则链接脚本u-boot-nand.lds;如未定义这个宏则链接脚本u-boot.lds；   
   - TEXT_BASE:配置x210时在board/samsung/x210目录下生成config.mk;内容为链接地址=0xc3e00000;    
   2.3.Makefile 6 :unconfig:未配置作为各个配置目标的依赖；
-   
+  2.4 mkconfig脚本的6个参数：x210_sd  arm  sp5c11x  x210 samsung s5pc110
+    - BOARD_NAME = $1
+    - 第一个:include/目录下创建asm 指向asm-arm；
+    - 第二个：在include/asm-arm下创建一个arch，指向include/asm-arm/arch-s5pc110;
+    - 第三个：在include下创建一个regs.h指向s5pc110.h;
+    - 第四个：删除创建的第二个符号链接，重新创建符号include/asm-arm/arch指向arch-sp5c11x;
+    - 第五个：创建include/asm-arm/proc指向include/asm-arm/proc-armv;
