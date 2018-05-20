@@ -71,4 +71,5 @@ tools: 工具类的代码；
   - 第四个：删除创建的第二个符号链接，重新创建符号include/asm-arm/arch指向arch-sp5c11x;
   - 第五个：创建include/asm-arm/proc指向include/asm-arm/proc-armv;
   2.5 配置过程详解2
-  - 创建inlcude/config.mk文件
+- 创建inlcude/config.mk文件，文件的内容就一行#include<configs/x210_sd.h>这个头文件是我们移植x210开发板时对开发板宏定义配置文件。
+- x210_sd.h文件会被用来生成一个autoconfig.mk文件，这个文件会被Makefile引入，知道整个编译过程，这里面的这些宏定义会影响我们对uboot中大部分.c文件中一些条件编译的选择。
