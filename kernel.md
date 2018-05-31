@@ -25,8 +25,8 @@
   - include: 头文件目录各种cpu架构共用的头文件都在这里；    
   - init:内核本身的初始化；     
   - ipc: 进程间通信    
-  - kernel:linux内核本身需要的文件;       
-  - lib：共用的有用库函数；      
+  - kernel:linux内核本身需要的文件;         
+  - lib：共用的有用库函数；      
   - mm: 内存管理相关的；      
   - net : 网络相关的代码tip/ip;    
   - script: 脚本辅助linux内核配置编译生产的；  
