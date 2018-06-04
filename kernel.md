@@ -69,8 +69,8 @@
   
   
   ## kernel工作流程：  
-    - Makefile分析：
-      - kernel version、指定编译输出文件make O=XX、交叉编译工具链及其前缀命名；make O=/tmp ARCH=arm;(编译时候通过命令行传参)  
-    - 链接脚本分析：  
-      - vmlinux.lds由vmlinux.lds.S(arch/arm/kernel/)  
+  - Makefile分析：
+    - kernel version、指定编译输出文件make O=XX、交叉编译工具链及其前缀命名；make O=/tmp ARCH=arm;(编译时候通过命令行传参)  
+  - 链接脚本分析：  
+    - vmlinux.lds由vmlinux.lds.S(arch/arm/kernel/)  
     
