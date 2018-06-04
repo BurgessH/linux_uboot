@@ -72,5 +72,6 @@
   - Makefile分析：
     - kernel version、指定编译输出文件make O=XX、交叉编译工具链及其前缀命名；make O=/tmp ARCH=arm;(编译时候通过命令行传参)  
   - 链接脚本分析：  
-    - vmlinux.lds由vmlinux.lds.S(arch/arm/kernel/)  
+    - vmlinux.lds由vmlinux.lds.S(arch/arm/kernel/) 汇编文件编译后会产生vmlinux.lds文件（.lds文件中不能选择条件编译） 
+    - ENTRY(stext),arch/arm/kernel/目录下的head.S和head-nommu.S;head.S是启用了MMU情况下的kernel启动文件；
     
